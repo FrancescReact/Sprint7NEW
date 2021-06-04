@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react'
-import linies from './linies.json'
+import teatre from './teatre.json'
 
 function App() {
 
@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <button onClick={next}>següent</button>
       <button onClick={back}>enrere</button>
-      <h1>{linies[index].texte}</h1>
+      <h1>{teatre[index].texte}</h1>
 
     </div>
   );
